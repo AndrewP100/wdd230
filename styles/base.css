@@ -13,7 +13,8 @@
 
  main {
      font-family: "Montserrat";
-     color: black;
+     color: wheat;
+     background-color: #219EBC;
      max-width: 800px;
      margin: auto;
  }
@@ -23,16 +24,40 @@
      margin: auto;
      max-width: 800px;
      grid-template-columns: 1fr 1fr;
-     background-color: aqua;
+     background-color: #023047;
+
+ }
+
+ body {
+     background-color: #023047;
+
  }
 
  nav {
      margin-bottom: 20px;
+     background-color: #219EBC;
+
  }
 
  footer {
      margin: auto;
-     background-color: beige;
+     background-color: #219EBC;
      max-width: 800px;
      text-align: center;
  }
+
+ ul {
+     list-style-type: none;
+ }
+
+ h3 {
+     color: ;
+     background-color: ;
+     text-align: center;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ p {}
