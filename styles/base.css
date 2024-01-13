@@ -1,0 +1,38 @@
+ @import url("https://fonts.google.com/specimen/Salsa");
+ @import url("https://fonts.google.com/specimen/Ubuntu");
+ @import url("https://fonts.google.com/specimen/Roboto");
+ @import url("https://fonts.google.com/specimen/Montserrat");
+
+ h1 {
+     font-family: "Roboto", ;
+     color: black;
+     margin: auto;
+     max-width: 800px;
+
+ }
+
+ main {
+     font-family: "Montserrat";
+     color: black;
+     max-width: 800px;
+     margin: auto;
+ }
+
+ header {
+     display: grid;
+     margin: auto;
+     max-width: 800px;
+     grid-template-columns: 1fr 1fr;
+     background-color: aqua;
+ }
+
+ nav {
+     margin-bottom: 20px;
+ }
+
+ footer {
+     margin: auto;
+     background-color: beige;
+     max-width: 800px;
+     text-align: center;
+ }
