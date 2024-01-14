@@ -17,6 +17,7 @@
      background-color: #219EBC;
      max-width: 800px;
      margin: auto;
+     grid-template-columns: 1fr 1fr;
  }
 
  header {
