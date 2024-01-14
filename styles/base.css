@@ -39,6 +39,8 @@
  nav {
      margin-bottom: 20px;
      background-color: #219EBC;
+     grid-template-columns: 1fr 1fr;
+     text-align: center;
 
  }
 
