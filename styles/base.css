@@ -23,8 +23,9 @@
      display: grid;
      margin: auto;
      max-width: 800px;
-     grid-template-columns: 1fr;
+     grid-template-columns: 1fr 1fr;
      background-color: #023047;
+     text-align: center;
 
  }
 
