@@ -1,0 +1,21 @@
+header,
+main,
+footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: solid;
+    border-color: green;
+    background-color: lightblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: white;
+}
