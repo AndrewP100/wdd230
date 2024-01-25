@@ -123,3 +123,17 @@
      color: #333;
      font-weight: 700;
  }
+
+ /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+ .open li {
+     display: block;
+     width: 100%;
+ }
+
+ .open li a {
+     display: block;
+ }
+
+ .active::before {
+     content: "📍 ";
+ }
