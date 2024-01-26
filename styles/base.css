@@ -12,7 +12,7 @@
  body {
      text-align: center;
      text-decoration: none;
-     background-color: #F6FFF8;
+     background-color: #023047;
      /* margin: 0%; */
      /* max-width: 800px; */
  }
@@ -37,7 +37,7 @@
 
  header,
  footer {
-     background-color: #6b9080;
+     background-color: #023047;
  }
 
  header img {
@@ -50,7 +50,7 @@
  }
 
  nav {
-     background-color: #A4C3B2;
+     background-color: #219EBC;
  }
 
  .card h3 {
@@ -71,6 +71,7 @@
      max-width: 640px;
      margin: 1rem auto;
      border: 1px solid #A4C3B2;
+     background-color: #219EBC;
      padding: 1rem;
  }
 
