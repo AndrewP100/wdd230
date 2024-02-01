@@ -40,4 +40,8 @@
     .stuff {
         margin: 1rem auto;
     }
+
+    .navigation a {
+        display: block;
+    }
 }
