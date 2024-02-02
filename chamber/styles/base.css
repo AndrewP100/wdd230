@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    background-color: rgba(63, 141, 218, 0.544);
 }
 
 header img {
@@ -17,6 +17,51 @@ header {
     flex-flow: wrap;
     align-items: center;
     justify-content: space-around;
+    background-color: #21374f;
+}
+
+/*Google-Map*/
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding: 10px;
+}
+
+/*FOOTER GRID*/
+footer {
+    background-color: #b68d55;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+#contact-info {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    place-items: center;
+}
+
+#footer-img {
+    grid-row: 1/5;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Hamburger Menu */
