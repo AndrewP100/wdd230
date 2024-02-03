@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgba(63, 141, 218, 0.544);
+    background-color: rgba(63, 190, 218, 0.544);
 }
 
 header img {
@@ -37,8 +37,8 @@ header {
 
 /*FOOTER GRID*/
 footer {
-    background-color: #b68d55;
-    color: black;
+    background-color: gray;
+    color: #e6e47b;
     text-align: center;
     padding: 10px;
     bottom: 0;
