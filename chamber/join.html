@@ -1,55 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
+
     <meta property="og:title" content="Orem Chamber of Commerce">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
     <meta name="author" content="Andrew Pinto">
-    <meta name="description" content="Orem Utah Chamber of Commerce, join us!">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Orem Chamber of Commerce Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Orem Chamber of Commerce - Official Site </title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/normal.css">
     <link rel="stylesheet" href="styles/large.css">
-
+    <link rel="icon" href="">
 </head>
+
 
 <body>
     <header>
-
+        <div id="logo">
+            <img id="img-header" src="images/Orem-city-logo.jpg" alt="Orem Logo">
+        </div>
+        <h4 id="currentDate"></h4>
+        <div id="mode">
+            <em> Dark Mode</em>🕶️
+        </div>
     </header>
     <nav id="nav-menu">
         <button id="menu"></button>
         <ul class="navigation">
-            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="#" title="Home" class="active">Home</a></li>
             <li><a href="discover.html" title="Discover">Discover</a></li>
-            <li><a href="directory.html" title="Directory" class="active">Directory</a></li>
-            <li><a href="join.html" titl e="Join">Join</a></li>
+            <li><a href="directory.html" title="Directory">Directory</a></li>
+            <li><a href="join.html" title="Join">Join</a></li>
         </ul>
     </nav>
-    <main>
-
+    <main id=main-join>
+        <aside id="aside-join">
+            <div class="aside">
+                <h2>Non-Profit Membership </h2>
+                <ul>
+                    <li>Basic listing in the chamber's online directory.</li>
+                    <li>Access to networking events and mixers.</li>
+                    <li>Subscription to the chamber's newsletter.</li>
+                    <li>Inclusion in chamber communications and social media posts.</li>
+                </ul>
+                <h2>$100 / Month</h2>
+            </div>
+            <div class="aside">
+                <h2>Bronze Membership</h2>
+                <ul>
+                    <li>Enhanced online directory listing with logo and detailed business description.</li>
+                    <li>Opportunity to submit articles or press releases for inclusion in the chamber's newsletter.</li>
+                    <li>Discounts on chamber events, workshops, and seminars.</li>
+                    <li>Access to basic educational resources or webinars.</li>
+                </ul>
+                <h2>$300 / Month</h2>
+            </div>
+            <div class="aside">
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>All perks of the bronze level.</li>
+                    <li>Priority placement in the online directory.</li>
+                    <li>Featured profile on the chamber's website or in promotional materials.</li>
+                    <li>Increased visibility through sponsorship opportunities at chamber events.</li>
+                    <li>Access to advanced educational resources, training sessions, or industry-specific workshops.
+                    </li>
+                </ul>
+                <h2>$400 / Month</h2>
+            </div>
+            <div class="aside">
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>All perks of the silver level.</li>
+                    <li>Exclusive invitations to VIP events or receptions.</li>
+                    <li>Priority access to chamber leadership and opportunities for one-on-one consultations.</li>
+                    <li>Recognition as a major sponsor at chamber events.</li>
+                    <li>Access to premium educational programs and specialized training.</li>
+                    <li>Customized marketing opportunities, such as co-branded promotions or featured articles.</li>
+                </ul>
+                <h2>$500 / Month</h2>
+            </div>
+        </aside>
+        <div id="join-list">
+            <h1>Why you should join us?</h1>
+            <ul>
+                <li>
+                    <h4>Business Connections:</h4>
+                    <p>Orem Chamber of Commerce(OCC) provide a platform for businesses to connect with each other,
+                        fostering networking opportunities. These connections can lead to partnerships, collaborations,
+                        and new
+                        business prospects.</p>
+                </li>
+                <li>
+                    <h4>Community Recognition:</h4>
+                    <p>Being a member of OCC can enhance your business's visibility within the community. It
+                        will add a level of credibility to your brand, showing that you are invested in the local
+                        business
+                        environment.</p>
+                </li>
+                <li>
+                    <h4>Voice in Government</h4>
+                    <p>OCC engage in advocacy efforts on behalf of our members. We represent the
+                        interests of businesses in discussions with local, regional, and national government entities,
+                        helping
+                        shape policies that affect our business community.
+                    </p>
+                </li>
+                <li>
+                    <h4>Seminars and Workshops</h4>
+                    <p>We frequently organize educational events, seminars, and workshops that provide valuable
+                        information on business trends, best practices, and industry-specific knowledge</p>
+                </li>
+                <li>
+                    <h4>Business Directories</h4>
+                    <p>Take a part in our directory! Our website receive +100k monthly visits!</p>
+                </li>
+                <li>
+                    <h4>Member Benefits</h4>
+                    <p>Access to multiple member benefits(see table)</p>
+                </li>
+            </ul>
+        </div>
+        <form method="get" action="thank-you.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top"> First Name*<input type="text" name="fname" required></label>
+                <label class="top"> Last Name*<input type="text" name="lname" required></label>
+                <label class="top"> Title in Organization*<input type="text" name="jobRole" required
+                        pattern="[a-zA-Z\- ]{7,}"></label>
+                <label class="top"> email*<input type="email" name="email" required
+                        placeholder="hello@company.com"></label>
+                <label class="top"> Phone*<input type="tel" name="Phone" required></label>
+                <label class="top"> Business/Organization name*<input type="text" name="Organization"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership</legend>
+                <label class="sbs"> <input type="radio" name="membership" value="Non-Profit">Non-Profit</label>
+                <label class="sbs"> <input type="radio" name="membership" value="Bronze">Bronze</label>
+                <label class="sbs"> <input type="radio" name="membership" value="Silver">Silver</label>
+                <label class="sbs"> <input type="radio" name="membership" value="Gold">Gold</label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Description</legend>
+                <label class="sbs"><input type="text" name="description"></label>
+            </fieldset>
+            <input type="submit" value="Join Us" class="submitBtn">
+        </form>
 
     </main>
+
+
+
+
     <footer>
         <div id="contact-info">
-
             <h2>Orem Chamber of Commerce</h2>
-
+            <h4>contact@oremchamber.com</h4>
+            <h4>(801) 851-2555</h4>
         </div>
         <div class="google-map">
-            <iframe></iframe>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1xUFnD16eLN3yFo8bK3Xa1USTVzc&hl=en&ehbc=2E312F"
+                width="600" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div id="dev-info">
-            <hr>
-            <p>&copy 2024 Orem Chamber of Commerce</p>
+            <p>&copy; 2024 Orem Chamber</p>
             <p>Andrew Pinto</p>
             <p>WDD230 Project</p>
-            <div id="lastModified"></div>
         </div>
     </footer>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkMode.js"></script>
+
 
 </body>
 
