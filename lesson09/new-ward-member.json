@@ -1,0 +1,28 @@
+{
+    "familyName": "Pinto Family",
+    "movedDate": 2021,
+    "familyMembers": 4,
+    "bishopricVisit": true,
+    "members": [
+        {
+            "name": "Andrew",
+            "gender": "male",
+            "bithdate": "04/09"
+        },
+        {
+            "name": "Kaitlyn",
+            "gender": "female",
+            "birthdate": "05/27"
+        },
+        {
+            "name": "Aaron",
+            "gener": "male",
+            "birthdate": "12/27"
+        },
+        {
+            "name": "Eva",
+            "gender": "female",
+            "birthdate": "11/16"
+        }
+    ]
+}
