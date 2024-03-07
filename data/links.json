@@ -1,0 +1,66 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "lesson01/holygrail.html",
+                    "title": "Holy Grail"
+                },
+                {
+                    "url": "lesson01/media-query.html",
+                    "title": "Media Query"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "add codepen",
+                    "title": "Pseudo-Elements"
+                },
+                {
+                    "url": "add codepen",
+                    "title": "Hamburguer Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "add codepen",
+                    "title": "Pseudo-Clases"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "wdd230/lesson05/bom.html",
+                    "title": "DOM Excersise"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "add temple picture",
+                    "title": "Landscape Image"
+                }
+            ]
+        }
+    ]
+}
