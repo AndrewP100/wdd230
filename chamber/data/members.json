@@ -1,14 +1,14 @@
 {
     "businesses": [
         {
-            "name": "",
-            "description": "",
+            "name": "Utah Valley University",
+            "description": "School",
             "address": "",
-            "phone": "",
-            "url": "",
-            "logo": "",
+            "phone": "(801) 000-000-0000",
+            "url": "www.uvu.edu",
+            "logo": "https://www.uvu.edu/marketing/images/identity_logo_seal.jpg",
             "membership": "Gold",
-            "since": "2023"
+            "since": "1941"
         },
         {
             "name": "",
@@ -69,26 +69,6 @@
             "logo": "",
             "membership": "Silver",
             "since": "2021"
-        },
-        {
-            "name": "",
-            "description": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "logo": "",
-            "membership": "Bronze",
-            "since": "1970"
-        },
-        {
-            "name": "",
-            "description": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "logo": "",
-            "membership": "Bronze",
-            "since": "2005"
         }
     ]
 }
