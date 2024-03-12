@@ -3,56 +3,56 @@
         {
             "name": "Utah Valley University",
             "description": "School",
-            "address": "",
-            "phone": "(801) 000-000-0000",
+            "address": "800 West University Parkway, Orem Utah",
+            "phone": "(801) 863-8000",
             "url": "www.uvu.edu",
             "logo": "https://www.uvu.edu/marketing/images/identity_logo_seal.jpg",
             "membership": "Gold",
             "since": "1941"
         },
         {
-            "name": "",
-            "description": "",
+            "name": "SCERA Center for the arts ",
+            "description": "Entertainment",
+            "address": "745 South State St, Orem Utah",
+            "phone": "(801) 225-2787",
+            "url": "https://scera.org/",
+            "logo": "https://scera.org/wp-content/uploads/2022/07/SCERA_center_logo_navyblue.png",
+            "membership": "Non-Profit",
+            "since": "1933"
+        },
+        {
+            "name": "Smiths",
+            "description": "Grocery Store",
+            "address": "45 South State St, Orem Utah",
+            "phone": "(801) 224-6111",
+            "url": "https://www.smithsfoodanddrug.com/stores/grocery/ut/orem",
+            "logo": "https://www.smithsfoodanddrug.com/android-chrome-512x512.png",
+            "membership": "Gold",
+            "since": "1980"
+        },
+        {
+            "name": "Maceys",
+            "description": "Grocery Store",
             "address": "",
             "phone": "",
             "url": "",
             "logo": "",
             "membership": "Gold",
-            "since": "2015"
-        },
-        {
-            "name": "",
-            "description": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "logo": "",
-            "membership": "Gold",
-            "since": "1990"
-        },
-        {
-            "name": "",
-            "description": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "logo": "",
-            "membership": "Silver",
             "since": "2022"
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Harmons",
+            "description": "Grocery Store",
             "address": "",
             "phone": "",
             "url": "",
             "logo": "",
-            "membership": "Non-Profit",
+            "membership": "Gold",
             "since": "2010"
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Harmon Reality",
+            "description": "Real Estate",
             "address": "",
             "phone": "",
             "url": "",
@@ -61,13 +61,33 @@
             "since": "2018"
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Utah Community Credit Union",
+            "description": "Credit Union",
             "address": "",
             "phone": "",
             "url": "",
             "logo": "",
-            "membership": "Silver",
+            "membership": "Gold",
+            "since": "2021"
+        },
+        {
+            "name": "Zions Bank",
+            "description": "Bank",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Gold",
+            "since": "2021"
+        },
+        {
+            "name": "Mountain America Credit Union",
+            "description": "Credit Union",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Gold",
             "since": "2021"
         }
     ]
