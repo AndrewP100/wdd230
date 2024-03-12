@@ -1,0 +1,94 @@
+{
+    "businesses": [
+        {
+            "name": "",
+            "description": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Gold",
+            "since": "2023"
+        },
+        {
+            "name": "",
+            "description": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Gold",
+            "since": "2015"
+        },
+        {
+            "name": "",
+            "description": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Gold",
+            "since": "1990"
+        },
+        {
+            "name": "",
+            "description": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Silver",
+            "since": "2022"
+        },
+        {
+            "name": "",
+            "description": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Non-Profit",
+            "since": "2010"
+        },
+        {
+            "name": "",
+            "description": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Gold",
+            "since": "2018"
+        },
+        {
+            "name": "",
+            "description": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Silver",
+            "since": "2021"
+        },
+        {
+            "name": "",
+            "description": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Bronze",
+            "since": "1970"
+        },
+        {
+            "name": "",
+            "description": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "logo": "",
+            "membership": "Bronze",
+            "since": "2005"
+        }
+    ]
+}
