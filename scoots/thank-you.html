@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta property="og:title" content="Orem Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lmhprap.github.io/wdd230/chamber/index.html">
+    <meta name="author" content="Andrew Pinto">
+    <meta name="description" content="Orem Chamber of Commerce, join us!">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Orem Chamber of Commerce Site</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normal.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img id="img-header" src="images/logo-nl1.webp" alt="Orem Logo">
+        </div>
+        <h4 id="currentDate"></h4>
+        <div id="mode">
+            <em> Dark Mode</em>🌝
+        </div>
+    </header>
+    <nav id="nav-menu">
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="discover.html" title="Discover">Discover</a></li>
+            <li><a href="directory.html" title="Directory">Directory</a></li>
+            <li><a href="#" title="Join" class="active">Join</a></li>
+        </ul>
+    </nav>
+    <main id=thank-you>
+        <h1>Welcome!</h1>
+        <h4>We hope this is the begining of a lifelong prosper business relationship!</h4>
+        <h4>We'll be in contact to the phone and mail address provided</h4>
+
+    </main>
+    <footer>
+        <div id="contact-info">
+            <img id="footer-img" src="images/logo-nl.webp" loading="lazy" alt="Orem Logo">
+            <h2>Andrew Pinto Chamber of Commerce</h2>
+            <h4></h4>
+            <h4></h4>
+            <h4></h4>
+
+        </div>
+        <div class="google-map">
+            <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="dev-info">
+            <hr>
+            <p>&copy 2024 Orem Chamber</p>
+            <p>Andrew Pinto</p>
+            <p>WDD230 Project</p>
+            <div id="lastModified"></div>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/hamMenu.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visits.js"></script>
+</body>
+
+</html>
