@@ -12,6 +12,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #333;
+    color: #4CAF50;
 
 }
 
@@ -36,7 +38,7 @@ header {
     flex-flow: wrap;
     align-items: center;
     justify-content: space-around;
-    background-image: "https://raw.githubusercontent.com/alansanchezzamora/wdd230/main/scoots/images/jeep-2.webp";
+    background-image: "https://raw.githubusercontent.com/andrewp100/wdd230/main/scoots/images/jeep-2.webp";
 }
 
 .social-media {
@@ -48,6 +50,7 @@ header {
 #img-header {
     width: 180px;
     height: 100%;
+    background-color: whitesmoke;
 }
 
 .hero-container {
@@ -253,7 +256,6 @@ h4 {
 }
 
 .rental-types-tag {
-    background-color: #3498db;
     color: ora;
     border-radius: 5px;
     margin-bottom: 10px;
