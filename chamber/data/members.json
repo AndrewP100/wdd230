@@ -33,17 +33,17 @@
         {
             "name": "Maceys",
             "description": "Grocery Store",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "logo": "",
+            "address": "880 North State St, Orem, UT 84057",
+            "phone": "(801) 225-6002",
+            "url": "maceys.com",
+            "logo": "https://www.afstores.com/wp-content/uploads/2020/04/Macey20122.png",
             "membership": "Gold",
             "since": "2022"
         },
         {
             "name": "Harmons",
             "description": "Grocery Store",
-            "address": "",
+            "address": "870 East 800 North, Orem, UT 84057",
             "phone": "",
             "url": "",
             "logo": "",
